@@ -1,0 +1,9 @@
+README
+
+This is a jamf pro worflow designed to pull inventory record information from jamf pro into a script.
+
+Components Involved:
+1. A configuration profile with the custom payload with a plist file containing configuration profile payload variables 
+as documented here: https://docs.jamf.com/10.23.0/jamf-pro/administrator-guide/Computer_Configuration_Profiles.html
+2. Bash Script code that reads the managed preference plist pushed by the configuration profile that can be put into another script 
+that then does something with that information. No doubt something could be written in Python or other languages but I chose bash. 
