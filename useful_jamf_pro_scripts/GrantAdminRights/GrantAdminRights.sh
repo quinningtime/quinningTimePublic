@@ -1,5 +1,5 @@
-#!/bin/bash -v
-exec 2>&1
+#!/bin/bash
+
 
 
 ####Written by quinningtime
