@@ -28,7 +28,7 @@
 #USES PARAMETER 4 FIELD IN JAMF PRO
 customIconFile="$4"
 
-#Body Text to display in popup message. Ex. "Hi Team Member, Kinetix needs you to approve the Jamf MDM profile. Please click 'Lets Do It!' below for instructions. This notification will appear daily until this is completed."
+#Body Text to display in popup message. Ex. "Hi Team Member, ACME IT needs you to approve the Jamf MDM profile. Please click 'Lets Do It!' below for instructions. This notification will appear daily until this is completed."
 #USES PARAMETER 5 FIELD IN JAMF PRO
 messageBodyText="$5"
 
