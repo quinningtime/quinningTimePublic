@@ -15,7 +15,7 @@
 
 #Section 1: Determine if the crowdstrike sensor is installed at all
 
-if [[ ! -e "/Applications/Falcon.app/Contents/Resources/falconctl" ]] && [[ ! -f "/Library/CS/falconctl" ]]; then
+if [[ ! -e "/Applications/Falcon.app/Contents/Resources/falconctl" ]] && [[ ! -f "/Library/CS/" ]]; then
 	echo "CrowdStrike Sensor Not Installed"
 	falconSensorVersion="Sensor Not Installed"
 else
