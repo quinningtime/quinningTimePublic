@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#CrowdStike Sensor Version Jamf Extension Attribute 1.0
+#CrowdStrike Sensor Version Jamf Extension Attribute 1.0
 #Written by Quinn Schreiner
 #Last Updated on 1/28/2021
 
@@ -9,11 +9,12 @@
 
 
 #About this program
-#This script is designed to be used as an extension attribute in jamf and will determine the version of the currently installed version of the CrowdStrike Sensor. If the crowdstrike sensor is not installed at all it will also report this. Supports  versions 5.x and above. 
+#This script is designed to be used as an extension attribute in jamf and will determine the version of the currently installed version of the CrowdStrike Sensor. 
+#If the CrowdStrike sensor is not installed at all it will also report this. Supports  versions 5.x and above. 
 
 
 
-#Section 1: Determine if the crowdstrike sensor is installed at all
+#Section 1: Determine if the CrowdStrike sensor is installed at all
 
 if [[ ! -e "/Applications/Falcon.app/Contents/Resources/falconctl" ]] && [[ ! -f "/Library/CS/" ]]; then
 	echo "CrowdStrike Sensor Not Installed"
